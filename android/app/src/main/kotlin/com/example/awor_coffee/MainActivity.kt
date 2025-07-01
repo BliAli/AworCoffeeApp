@@ -1,0 +1,5 @@
+package com.example.awor_coffee
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
