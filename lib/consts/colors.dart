@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 //Primary Color
 const Color blackColor = Color.fromRGBO(71, 43, 13, 1);
-const Color whiteColor = Color.fromRGBO(247, 247, 247, 1);
+const Color whiteColorP = Color.fromRGBO(247, 247, 247, 1);
 const Color brownColor = Color.fromRGBO(71, 43, 13, 1);
 
 //Secondary Color
