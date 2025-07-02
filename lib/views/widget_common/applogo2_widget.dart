@@ -1,7 +1,7 @@
 import 'package:awor_coffee/consts/consts.dart';
 
-Widget applogoWidget(){
+Widget applogo2Widget(){
   return Image.asset(
-    icLogoAwor1
-  ).box.size(200, 40).make();
+    icLogoAwor2
+  ).box.size(140, 77).make();
 }
