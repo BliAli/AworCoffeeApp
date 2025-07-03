@@ -1,4 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:awor_coffee/consts/consts.dart';
+import 'package:awor_coffee/views/splash_screen/splash_screen.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() {
   runApp(const AworCoffeeApp());
@@ -9,11 +11,13 @@ class AworCoffeeApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: appname,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.transparent),
       ),
+      home: SplashScreen(),
     );
   }
 }
