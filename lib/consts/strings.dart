@@ -18,8 +18,10 @@ const home = "Home", menu = "Menu", order = "Order", profile = "Profile";
 
 //String Home Screen
 const hiDear = "Hi, Dear",
-    poin = "99",
+    poin = "99 Poin",
     tukarPoin = "Tukarkan Poinmu",
+    pickUp = "Pick Up",
+    delivery = "Delivery",
     aworNews = "Awor News",
     kunjungAwor = "Kunjungi Awor Hari Ini!",
     cariOutlet = "Cari Outlet",

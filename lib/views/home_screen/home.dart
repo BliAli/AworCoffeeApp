@@ -14,13 +14,12 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     var controller = Get.put(HomeController());
 
-    var navBody = [HomeScreen(), MenuScreen(), OrderScreen(), ProfileScreen()];
+    var navBody = [HomeScreen(), OrderScreen(), ProfileScreen()];
 
     var navBarItem = [
-      BottomNavigationBarItem(icon: Image.asset(icHome, width: 26,), label: home),
-      BottomNavigationBarItem(icon: Image.asset(icMenu, width: 26,), label: menu),
-      BottomNavigationBarItem(icon: Image.asset(icOrder, width: 26,), label: order),
-      BottomNavigationBarItem(icon: Image.asset(icProfile, width: 26,), label: profile),
+      BottomNavigationBarItem(icon: Image.asset(icHomeFill, width: 26,), activeIcon: Image.asset(icHome, width: 26,), label: menu),
+      BottomNavigationBarItem(icon: Image.asset(icOrder, width: 26,),  activeIcon: Image.asset(icOrderFill, width: 26,), label: order),
+      BottomNavigationBarItem(icon: Image.asset(icProfile, width: 26,), activeIcon: Image.asset(icProfileFill, width: 26,), label: profile),
     ];
 
     return Scaffold(
@@ -35,6 +34,13 @@ class Home extends StatelessWidget {
           currentIndex: controller.currentNavIndex.value,
           type: BottomNavigationBarType.fixed,
           items: navBarItem,
+          selectedLabelStyle: TextStyle(
+            fontFamily: semibold,
+          ),
+          unselectedLabelStyle: TextStyle(
+            fontFamily: semibold,
+          ),
+          selectedItemColor: lightGreyColor,
           onTap: (value) => {
             controller.currentNavIndex.value = value,
           },
