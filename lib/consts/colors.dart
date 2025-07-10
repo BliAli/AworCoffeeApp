@@ -14,3 +14,5 @@ const Color lightBrownColor = Color.fromRGBO(116, 81, 45, 1);
 const Color lightGreyColor = Color.fromRGBO(210, 210, 210, 1);
 const Color lightBlue = Color.fromRGBO(0, 122, 208, 1);
 const Color greyColor = Color.fromRGBO(217, 217, 217, 1);
+const Color greyPoinColor = Color.fromRGBO(107, 107, 107, 1);
+const Color greyCDateColor = Color.fromRGBO(151, 151, 151, 1);

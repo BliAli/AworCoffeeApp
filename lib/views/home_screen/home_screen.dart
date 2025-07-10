@@ -1,4 +1,5 @@
 import 'package:awor_coffee/consts/consts.dart';
+import 'package:awor_coffee/views/exchange_poin_screen/exchange_poin_screen.dart';
 import 'package:awor_coffee/views/notif_screen/notif_screen.dart';
 import 'package:awor_coffee/views/widget_common/our_button.dart';
 import 'package:get/get.dart';
@@ -92,7 +93,7 @@ class HomeScreen extends StatelessWidget {
                         EdgeInsets.symmetric(horizontal: 14, vertical: 3),
                       )
                       .margin(EdgeInsets.symmetric(horizontal: 10))
-                      .make(),
+                      .make().onTap(() => Get.to(() => ExchangePoinScreen())),
 
                   Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,

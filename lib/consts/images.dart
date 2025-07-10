@@ -12,6 +12,9 @@ const icProfileFill = "assets/icons/profilefill.png";
 const icNotif = "assets/icons/notif.png";
 const icPickUp = "assets/icons/pickup.png";
 const icDelivery = "assets/icons/delivery.png";
+const icFreeCoffee = "assets/icons/freeCoffeeIcon.png";
+const icDiscount = "assets/icons/discountIcon.png";
+const icFreeCroissant = "assets/icons/croissantIcon.png";
 
 //images
 const aworPromo = "assets/images/pbanner1.jpg";
