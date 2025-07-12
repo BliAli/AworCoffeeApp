@@ -20,3 +20,9 @@ const newsSlider = [
   montlhyBeans,
   runniversary
 ];
+
+const newsCaption = [
+  captionComingSoon,
+  captionBeansList,
+  captionRunniversary,
+];

@@ -62,3 +62,11 @@ const pointKamu = "Poin Kamu",
     yakinReedem = "Yakin ingin Reedem",
     poinTdkDptKembali = "Poin tidak dapat dikembalikan",
     poinBerhasilDitukar = "Poin Berhasil Ditukar";
+
+const captionComingSoon =
+        "We know it’s pixelated. \nBut with colors like that, we bet you already have a clue. \n\nSo… what do you think is coming (real) soon?",
+    captionBeansList =
+        "New month, new layers to explore.\nThink floral, fruity, and a little wild.\nThis one’s brewed for curious sips.\n\nAwor Monthly Beanlist – July 2025\nRoastery by Tenun Coffee Roastery\n_______\n🍑 Patuha Honey Mosto\nPeach, Almond Syrup, White Floral\nMt. Patuha, Bandung, West Java\nHoney Mosto — 1850–1900 Mdpl\n\n🍋 Gayo Bourbon Natural\nGrapefruit, Lime, Coconut Sugar\nBener Meriah, Gayo, Aceh\nNatural — 1300–1400 Mdpl\n\n🫐 Simalungun Abyssina Natural\nBlackberry, Bay Leaf, Malt\nSimalungun, North Sumatra\nNatural — 1400 Mdpl\n_______\n\nSlow down, sip deeper! Enjoy #ManualBrewDay today, buy Manual Brew get FREE French Croissant! See you ",
+    captionRunniversary =
+        "ey, Awor Coffee Klaten is turning 5th! all health & wealth may stay with us!\n\nLet’s Celebrate and join us at\n\nRUNNIVER5ARY\nAwor Coffee Klaten\n5k Intermediate Pace\n\nJune 14, 2025\nStart 06.00\nLimited!\n\nRegistration Fee : 25k Include Coffee & Refreshment\nOr Register Bundling with awor x heartstride 1.0 jersey : 270k Include Coffee & Refreshment";
+

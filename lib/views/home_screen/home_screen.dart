@@ -1,5 +1,6 @@
 import 'package:awor_coffee/consts/consts.dart';
 import 'package:awor_coffee/views/exchange_poin_screen/exchange_poin_screen.dart';
+import 'package:awor_coffee/views/news_screen/news_screen.dart';
 import 'package:awor_coffee/views/notif_screen/notif_screen.dart';
 import 'package:awor_coffee/views/widget_common/our_button.dart';
 import 'package:get/get.dart';
@@ -17,7 +18,6 @@ class HomeScreen extends StatelessWidget {
               physics: BouncingScrollPhysics(),
               child: Column(
                 children: [
-                  
                   VxSwiper.builder(
                     height: 370,
                     autoPlay: true,
@@ -93,7 +93,8 @@ class HomeScreen extends StatelessWidget {
                         EdgeInsets.symmetric(horizontal: 14, vertical: 3),
                       )
                       .margin(EdgeInsets.symmetric(horizontal: 10))
-                      .make().onTap(() => Get.to(() => ExchangePoinScreen())),
+                      .make()
+                      .onTap(() => Get.to(() => ExchangePoinScreen())),
 
                   Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -181,7 +182,10 @@ class HomeScreen extends StatelessWidget {
                           ).box.rounded
                           .clip(Clip.antiAlias)
                           .margin(EdgeInsets.symmetric(horizontal: 4))
-                          .make();
+                          .make()
+                          .onTap(() {
+                            Get.to(() => NewsScreen(newsImage: newsSlider[index], newsCaption: newsCaption[index],));
+                          });
                     },
                   ),
 
