@@ -15,6 +15,7 @@ const icDelivery = "assets/icons/delivery.png";
 const icFreeCoffee = "assets/icons/freeCoffeeIcon.png";
 const icDiscount = "assets/icons/discountIcon.png";
 const icFreeCroissant = "assets/icons/croissantIcon.png";
+const iconOrder = "assets/icons/iconOrder.png";
 
 //images
 const aworPromo = "assets/images/pbanner1.jpg";

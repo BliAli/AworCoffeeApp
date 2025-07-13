@@ -95,3 +95,6 @@ const outletDekat = "Outlet Terdekat",
     distanceECG = "11,5km",
     pilihOutlet = "Pilih Outlet",
     cekMap = "Cek di maps";
+
+//String Order Screen
+const pesanan = "Pesanan", belumPesanan = "Belum ada pesanan";
