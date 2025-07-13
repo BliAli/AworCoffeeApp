@@ -63,6 +63,7 @@ const pointKamu = "Poin Kamu",
     poinTdkDptKembali = "Poin tidak dapat dikembalikan",
     poinBerhasilDitukar = "Poin Berhasil Ditukar";
 
+//String Awor News Screen
 const captionComingSoon =
         "We know it’s pixelated. \nBut with colors like that, we bet you already have a clue. \n\nSo… what do you think is coming (real) soon?",
     captionBeansList =
@@ -70,3 +71,27 @@ const captionComingSoon =
     captionRunniversary =
         "ey, Awor Coffee Klaten is turning 5th! all health & wealth may stay with us!\n\nLet’s Celebrate and join us at\n\nRUNNIVER5ARY\nAwor Coffee Klaten\n5k Intermediate Pace\n\nJune 14, 2025\nStart 06.00\nLimited!\n\nRegistration Fee : 25k Include Coffee & Refreshment\nOr Register Bundling with awor x heartstride 1.0 jersey : 270k Include Coffee & Refreshment";
 
+//String Search Outlet
+const outletDekat = "Outlet Terdekat",
+    aworGallery = "Awor Gallery & Coffee",
+    aworJunction = "Awor Coffee Junction",
+    aworYard = "Awor Yard & Coffee",
+    aworKaliurang = "Awor Coffee Kaliurang",
+    aworECG = "Awor Espresso & Coffee Gear",
+    addressGallery =
+        "YAP SQUARE B11, Jl. C. Simanjuntak, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223",
+    addressJunction =
+        "Jl. Dr. Wahidin Sudirohusodo No.16, Klitren, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55222",
+    addressYard =
+        "Jl. Palagan Tentara Pelajar P6 No.km 7, Mudal, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581",
+    addressKaliurang =
+        "Jl. Besi Jaya, Besi, Sukoharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581",
+    addressECG =
+        "Jl. Tasura No.34, Jenengan, Maguwoharjo, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55282",
+    distanceGallery = "5,4km",
+    distanceJunction = "6,7km",
+    distanceYard = "6,9km",
+    distanceKaliurang = "14,2km",
+    distanceECG = "11,5km",
+    pilihOutlet = "Pilih Outlet",
+    cekMap = "Cek di maps";

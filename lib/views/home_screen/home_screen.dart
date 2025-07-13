@@ -2,6 +2,7 @@ import 'package:awor_coffee/consts/consts.dart';
 import 'package:awor_coffee/views/exchange_poin_screen/exchange_poin_screen.dart';
 import 'package:awor_coffee/views/news_screen/news_screen.dart';
 import 'package:awor_coffee/views/notif_screen/notif_screen.dart';
+import 'package:awor_coffee/views/search_outlet_screen/search_outlet.dart';
 import 'package:awor_coffee/views/widget_common/our_button.dart';
 import 'package:get/get.dart';
 
@@ -184,7 +185,12 @@ class HomeScreen extends StatelessWidget {
                           .margin(EdgeInsets.symmetric(horizontal: 4))
                           .make()
                           .onTap(() {
-                            Get.to(() => NewsScreen(newsImage: newsSlider[index], newsCaption: newsCaption[index],));
+                            Get.to(
+                              () => NewsScreen(
+                                newsImage: newsSlider[index],
+                                newsCaption: newsCaption[index],
+                              ),
+                            );
                           });
                     },
                   ),
@@ -257,7 +263,11 @@ class HomeScreen extends StatelessWidget {
                                         .margin(EdgeInsets.only(left: 4))
                                         .make(),
                                   ],
-                                ).box
+                                )
+                                .onTap(() {
+                                  Get.to(() => SearchOutlet());
+                                })
+                                .box
                                 .color(lightGreyColor)
                                 .rounded
                                 .padding(

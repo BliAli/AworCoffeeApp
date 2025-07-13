@@ -15,14 +15,46 @@ const promoSlider = [
   sparklyPromo,
 ];
 
-const newsSlider = [
-  comingSoon,
-  montlhyBeans,
-  runniversary
+const newsSlider = [comingSoon, montlhyBeans, runniversary];
+
+const newsCaption = [captionComingSoon, captionBeansList, captionRunniversary];
+
+const imagesOutlet = [
+  outletGallery,
+  outletJunction,
+  outletYard,
+  outletKaliurang,
+  outletECG,
 ];
 
-const newsCaption = [
-  captionComingSoon,
-  captionBeansList,
-  captionRunniversary,
+const namaOutlet = [
+  aworGallery,
+  aworJunction,
+  aworYard,
+  aworKaliurang,
+  aworECG,
+];
+
+const addressOutlet = [
+  addressGallery,
+  addressJunction,
+  addressYard,
+  addressKaliurang,
+  addressECG,
+];
+
+const distanceOutlet = [
+  distanceGallery,
+  distanceJunction,
+  distanceYard,
+  distanceKaliurang,
+  distanceECG,
+];
+
+const mapOutlet = [
+  mapGallery,
+  mapJunction,
+  mapYard,
+  mapKaliurang,
+  mapECG,
 ];
