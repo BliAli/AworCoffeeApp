@@ -98,3 +98,16 @@ const outletDekat = "Outlet Terdekat",
 
 //String Order Screen
 const pesanan = "Pesanan", belumPesanan = "Belum ada pesanan";
+
+//String Profile Screen
+const userProfileName = "Ali",
+    userNoProfile = "089683052217",
+    kodeRefHint = "Kode Referal :",
+    kodeRef = "ALINOPAL123",
+    alamatTersimpan = "Alamat Tersimpan",
+    metodePembayaran = "Metode Pembayaran",
+    pusatBantu = "Pusat Bantuan",
+    faq = "FAQ",
+    userMedSos = "Media Sosial",
+    keluar = "Keluar",
+    verApp = "Version 1.0.0";

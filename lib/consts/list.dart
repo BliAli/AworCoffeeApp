@@ -51,10 +51,18 @@ const distanceOutlet = [
   distanceECG,
 ];
 
-const mapOutlet = [
-  mapGallery,
-  mapJunction,
-  mapYard,
-  mapKaliurang,
-  mapECG,
+const mapOutlet = [mapGallery, mapJunction, mapYard, mapKaliurang, mapECG];
+
+const profileList = [
+  alamatTersimpan,
+  metodePembayaran,
+  pusatBantu,
+  faq,
+  userMedSos,
+];
+
+const medSosIconList = [
+  icInstagram,
+  icX,
+  icFacebook
 ];
