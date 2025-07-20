@@ -111,3 +111,10 @@ const userProfileName = "Ali",
     userMedSos = "Media Sosial",
     keluar = "Keluar",
     verApp = "Version 1.0.0";
+
+//String User Profile Screen
+const akunSaya = "Akun Saya",
+    username = "Username",
+    tanggalLahir = "Tanggal Lahir",
+    jenisKelamin = "Jenis Kelamin",
+    noTelp = "No Telepon";
