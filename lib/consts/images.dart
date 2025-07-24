@@ -18,6 +18,11 @@ const icFreeCoffee = "assets/icons/freeCoffeeIcon.png";
 const icDiscount = "assets/icons/discountIcon.png";
 const icFreeCroissant = "assets/icons/croissantIcon.png";
 const iconOrder = "assets/icons/iconOrder.png";
+const iconQris = "assets/icons/iconQris.png";
+const iconGopay = "assets/icons/iconGopay.png";
+const iconDana = "assets/icons/iconDana.jpg";
+const iconShopeePay = "assets/icons/iconShopeePay.png";
+const iconOvo = "assets/icons/iconOvo.jpg";
 
 //images
 const aworPromo = "assets/images/pbanner1.jpg";

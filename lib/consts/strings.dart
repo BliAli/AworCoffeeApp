@@ -127,3 +127,13 @@ const detailAlamat = "Detail Alamat",
     headerAlamat2 = "Kos Warung Pojok",
     bodyAlamat2 =
         "Gg. Delima No.32, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281";
+
+//String user method payment
+const pembayaranTerpilih = "Pembayaran Terpilih",
+    metodePembayaranLain = "Metode Pembayaran Lainnya",
+    qris = "QRIS",
+    gopay = "Gopay",
+    dana = "Dana",
+    shopeePay = "ShopeePay",
+    ovo = "OVO",
+    aktifSekarang = "Aktifkan Sekarang";

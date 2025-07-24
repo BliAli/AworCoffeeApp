@@ -61,8 +61,13 @@ const profileList = [
   userMedSos,
 ];
 
-const medSosIconList = [
-  icInstagram,
-  icX,
-  icFacebook
+const medSosIconList = [icInstagram, icX, icFacebook];
+
+const payMethodList = [gopay, dana, shopeePay, ovo];
+
+const payMethodIconList = [
+  iconGopay,
+  iconDana,
+  iconShopeePay,
+  iconOvo
 ];
