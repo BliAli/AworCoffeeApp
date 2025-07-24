@@ -118,3 +118,12 @@ const akunSaya = "Akun Saya",
     tanggalLahir = "Tanggal Lahir",
     jenisKelamin = "Jenis Kelamin",
     noTelp = "No Telepon";
+
+//String User Address Screen
+const detailAlamat = "Detail Alamat",
+    headerAlamat1 = "My Kos Gue",
+    bodyAlamat1 =
+        "Jl Tambakbayan IV, Jl. Babarsari No.20B, Janti, Caturtunggal, Depok, Sleman Regency, Special Region of Yogyakarta 55281",
+    headerAlamat2 = "Kos Warung Pojok",
+    bodyAlamat2 =
+        "Gg. Delima No.32, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281";

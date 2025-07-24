@@ -1,5 +1,9 @@
 import 'package:awor_coffee/consts/consts.dart';
 import 'package:awor_coffee/views/auth_screen/login_screen.dart';
+import 'package:awor_coffee/views/profile_screen/faq_screen/faq_screen.dart';
+import 'package:awor_coffee/views/profile_screen/help_center_screen/help_center_screen.dart';
+import 'package:awor_coffee/views/profile_screen/method_payment_screen/method_payment_screen.dart';
+import 'package:awor_coffee/views/profile_screen/user_address_screen/user_address_screen.dart';
 import 'package:awor_coffee/views/profile_screen/user_profile_screen/user_profile_screen.dart';
 import 'package:get/get.dart';
 
@@ -8,6 +12,13 @@ class ProfileScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var pageList = [
+      UserAddressScreen(),
+      MethodPaymentScreen(),
+      HelpCenterScreen(),
+      FaqScreen(),
+    ];
+
     return Scaffold(
       appBar: AppBar(
         title: profile.text.color(brownColor).fontFamily(bold).make(),
@@ -141,7 +152,12 @@ class ProfileScreen extends StatelessWidget {
                         .padding(
                           EdgeInsets.symmetric(horizontal: 35, vertical: 15),
                         )
-                        .make();
+                        .make()
+                        .onTap(() {
+                          if (profileList[index] != 'Media Sosial') {
+                            Get.to(() => pageList[index]);
+                          }
+                        });
                   },
                   itemCount: profileList.length,
                 ),

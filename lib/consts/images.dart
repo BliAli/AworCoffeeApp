@@ -45,3 +45,5 @@ const mapYard = "assets/images/mapYard.png";
 const mapKaliurang = "assets/images/mapKaliurang.png";
 const mapECG = "assets/images/mapECG.png";
 const profileImage = "assets/images/ppDefault.jpg";
+const mapKosKuning = "assets/images/mapKosKuning.png";
+const mapKosWarungPojok = "assets/images/kosWarungPojokMap.png";
