@@ -137,3 +137,14 @@ const pembayaranTerpilih = "Pembayaran Terpilih",
     shopeePay = "ShopeePay",
     ovo = "OVO",
     aktifSekarang = "Aktifkan Sekarang";
+
+//String user help center
+const pertanyaan1 = "Bagaimana cara saya mendapatkan sebuah poin?",
+    jawaban1 =
+        "Anda dapat mendapatkan sebuah poin setiap transaksi sebesar Rp.25.000 dan kelipatannya",
+    pertanyaan2 = "Bagaimana saya mendapatkan sebuah voucher?",
+    jawaban2 =
+        "Anda bisa mendapatkan sebuah voucher dengan membelinya menggunakan poin yang anda miliki",
+    pertanyaan3 = "Apakah saya bisa membatalkan pesanan yang telah saya buat?",
+    jawaban3 =
+        "Maaf, anda tidak bisa membatalkan pesanan yang telah anda buat dan bayar";
