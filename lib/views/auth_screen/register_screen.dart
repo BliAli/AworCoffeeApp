@@ -50,7 +50,7 @@ class RegisterScreen extends StatelessWidget {
                 ),
                 ourButton(
                   onPress: () {},
-                  color: lightBrownColor,
+                  color: brownColor,
                   textColor: whiteColorP,
                   title: register,
                 ).box.width(context.screenWidth - 50).make(),

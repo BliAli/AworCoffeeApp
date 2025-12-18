@@ -1,5 +1,6 @@
 import 'package:awor_coffee/consts/consts.dart';
 import 'package:awor_coffee/views/auth_screen/register_screen.dart';
+import 'package:awor_coffee/views/home_screen/home.dart';
 import 'package:awor_coffee/views/widget_common/applogo2_widget.dart';
 import 'package:awor_coffee/views/widget_common/custom_textfield.dart';
 import 'package:awor_coffee/views/widget_common/our_button.dart';
@@ -47,8 +48,10 @@ class LoginScreen extends StatelessWidget {
                   ),
                 ),
                 ourButton(
-                  onPress: () {},
-                  color: lightBrownColor,
+                  onPress: () {
+                    Get.to(() => Home());
+                  },
+                  color: brownColor,
                   textColor: whiteColorP,
                   title: login,
                 ).box.width(context.screenWidth - 50).make(),
