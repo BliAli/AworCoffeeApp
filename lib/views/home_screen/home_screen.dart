@@ -2,6 +2,7 @@ import 'package:awor_coffee/consts/consts.dart';
 import 'package:awor_coffee/views/exchange_poin_screen/exchange_poin_screen.dart';
 import 'package:awor_coffee/views/news_screen/news_screen.dart';
 import 'package:awor_coffee/views/notif_screen/notif_screen.dart';
+import 'package:awor_coffee/views/pickup_screen/pickup_screen.dart';
 import 'package:awor_coffee/views/search_outlet_screen/search_outlet.dart';
 import 'package:awor_coffee/views/widget_common/our_button.dart';
 import 'package:get/get.dart';
@@ -27,7 +28,7 @@ class HomeScreen extends StatelessWidget {
                     itemBuilder: (context, index) {
                       return Image.asset(
                             promoSlider[index],
-                            fit: BoxFit.fill,
+                            fit: BoxFit.fill, 
                             width: double.infinity,
                             height: double.infinity,
                           ).box.rounded
@@ -104,12 +105,11 @@ class HomeScreen extends StatelessWidget {
                                 children: [
                                   Align(
                                     alignment: Alignment.topRight,
-                                    child:
-                                        pickUp.text
-                                            .fontFamily(bold)
-                                            .size(22)
-                                            .color(whiteColorP)
-                                            .make(),
+                                    child: pickUp.text
+                                        .fontFamily(bold)
+                                        .size(22)
+                                        .color(whiteColorP)
+                                        .make(),
                                   ),
                                   Align(
                                     alignment: Alignment.centerLeft,
@@ -121,10 +121,13 @@ class HomeScreen extends StatelessWidget {
                                 ],
                               ).box
                               .size(180, 120)
-                              .color(lightBrownColor)
+                              .color(brownColor)
                               .rounded
                               .padding(EdgeInsets.all(14))
-                              .make(),
+                              .make()
+                              .onTap(() {
+                                Get.to(() => PickupScreen());
+                              }),
                           Column(
                                 children: [
                                   Align(

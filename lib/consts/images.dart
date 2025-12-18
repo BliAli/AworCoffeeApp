@@ -23,6 +23,8 @@ const iconGopay = "assets/icons/iconGopay.png";
 const iconDana = "assets/icons/iconDana.jpg";
 const iconShopeePay = "assets/icons/iconShopeePay.png";
 const iconOvo = "assets/icons/iconOvo.jpg";
+const icPickUp2 = "assets/icons/icPickUp2.png";
+const icStore = "assets/icons/icStore.png";
 
 //images
 const aworPromo = "assets/images/pbanner1.jpg";
@@ -52,3 +54,37 @@ const mapECG = "assets/images/mapECG.png";
 const profileImage = "assets/images/ppDefault.jpg";
 const mapKosKuning = "assets/images/mapKosKuning.png";
 const mapKosWarungPojok = "assets/images/kosWarungPojokMap.png";
+const bgPickup = "assets/images/bgPickUp.jpg";
+const bgPickupNoEdit = "assets/images/bgPickupNoEdit.jpg";
+//Menu
+//Recommended
+const picMonteFries = "assets/images/monteFries.jpg";
+const picAworPlatter = "assets/images/aworPlatter.jpg";
+const picPalmeira = "assets/images/palmeira.jpg";
+const picMatchaLatte = "assets/images/matchaLatte.jpg";
+const picFrenchFries = "assets/images/frenchFries.jpg";
+const picGrilledCheese = "assets/images/grilledCheese.jpg";
+//Sparkly
+const picBlackMandarin = "assets/images/blackMandarin.jpg";
+const picGreenSmith = "assets/images/greenSmith.jpg";
+const picCranberry = "assets/images/cranberry.jpg";
+//Signatures
+const picEskimo = "assets/images/eskimoKiss.jpg";
+const picWhiteCreamy = "assets/images/whiteCreamyLatte.jpg";
+const picBlackSummer = "assets/images/blackSummer.jpg";
+const picIrishBlood = "assets/images/irishBlood.jpg";
+const picAworCoffeeCream = "assets/images/aworCoffeeCream.jpg";
+const picAllenImmersion = "assets/images/allenImmersion.jpg";
+const picSteviaLatte = "assets/images/steviaLatte.jpg";
+//Es Kopi Susu
+const picEskogar = "assets/images/eskogar.jpg";
+const picBianca = "assets/images/bianca.jpg";
+//Cold Brew
+const picColdBlack = "assets/images/coldBlack.jpg";
+const picColdWhite = "assets/images/coldWhite.jpg";
+//Pastries
+const picFrenchCroissant = "assets/images/frenchCroissant.jpg";
+const picPainAuxChoco = "assets/images/painAuxChoco.jpg";
+const picCinnamonPastry = "assets/images/cinnamonPastry.jpg";
+const picPainAuBeefCheese = "assets/images/painAuBeefCheese.jpg";
+const picCheeseCroissant = "assets/images/cheeseCroissant.jpg";

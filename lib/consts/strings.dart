@@ -148,3 +148,153 @@ const pertanyaan1 = "Bagaimana cara saya mendapatkan sebuah poin?",
     pertanyaan3 = "Apakah saya bisa membatalkan pesanan yang telah saya buat?",
     jawaban3 =
         "Maaf, anda tidak bisa membatalkan pesanan yang telah anda buat dan bayar";
+
+//String Pick Up Screen
+const ambilDiOutlet = "Ambil langsung di Outlet",
+    cariProduk = "Cari Produk",
+    recommend = "Recommended",
+    aworSparkly = "Awor Spakrly",
+    signatures = "Signatures",
+    creamyFlav = "Creamy Flavored Latte",
+    esKopiSusu = "Es Kopi Susu",
+    coldBrew = "Cold Brew",
+    iceBlend = "Ice Blended",
+    nonCoffee = "Non Coffee",
+    originChoco = "Origin Choco",
+    teaTisane = "Tea & Tisane",
+    sandwichToast = "Sandwich & Toast",
+    pastries = "Pastries",
+        //Menu Recommended
+        monteFries =
+        "Monte Cristo With Fries",
+    desMonteFries =
+        "Toasted sandwich with beef, ceddar and mozzarella with french fries",
+    priceMonteFries = "38000",
+    aworPlatter = "Awor Platter",
+    desAworPlatter =
+        "A plate to share, french fries, potato wedges fried beef sausage",
+    priceAworPlatter = "35000",
+    palmeira = "Palmeira",
+    desPalmeira =
+        "Espresso, Cold Fresh Milk, Mixed With Cream And Palm Sugar. Simple, Sweet And Strong",
+    pricePalmeira = "25000",
+    matchaLatte = "Matcha Latte",
+    desMatchaLatte = "Real Matcha With Cold Fresh Milk, It Will Calm Your Soul",
+    priceMatchaLatte = "23000",
+    frenchFries = "French Fries",
+    desFrenchFries = "Deep fried potatoes, a chips",
+    priceFrenchFries = "20000",
+    grilledCheese = "Grilled Cheese",
+    desGrilledCheese = "Toasted sandwich with Red ceddar and mozzarella",
+    priceGrilledCheese = "28000",
+        //Menu Sparkly
+        blackMandarin =
+        "Black Mandarin",
+    desBlackMandarin =
+        "Coldbrew arabica coffee, mandarin orange juice with soda",
+    priceBlackMandarin = "35000",
+    greenSmith = "Green Smith",
+    desGreenSmith = "Coldbrew green tea, green apple concentrate with soda",
+    priceGreenSmith = "35000",
+    cranberry = "Sparkly Cranberry",
+    desCranberry =
+        "Probiotic fermented tea blend with cranberry juice with soda",
+    priceCranberry = "35000",
+        //Menu Siganature
+        eskimoKiss =
+        "Eskimo Kiss",
+    desEskimo =
+        "Espresso Mixed With Sweet Palm Sugar, Condesed Milk, Cream And Cold Fresh Milk. Everyone'S Favorite",
+    priceEskimo = "25000",
+    whiteCreamy = "White Creamy Latte",
+    desWhiteCreamy = "Espresso And Fresh Milk",
+    priceWhiteCreamy = "25000",
+    blackSummer = "Black Summer",
+    desBlackSummer = "A Beauty In Ipanema Sunshine",
+    priceBlackSummer = "35000",
+    irishBlood = "Irish Blood",
+    desIrishBlood = "Doppio, Irish Cream, Shake With Ice",
+    priceIrishBlood = "35000",
+    aworCoffeeCream = "Awor Coffee Cream",
+    desAworCoffeeCream =
+        "Ice Cream Vanilla, Espresso And Hazelnut, A Treat For Soul",
+    priceAworCoffeeCream = "35000",
+    allenImmersion = "Allen Immersion",
+    desAllen =
+        "Awor New Favorite Cold Brew Immersion 24 Hours Made. Aromatics, Sweet and creamy bold Coffee. inspired by Allen Immersion a.k.a The Answer, Nba basketball pro player.",
+    priceAllen = "25000",
+    steviaLatte = "Stevia Latte",
+    desSteviaLatte =
+        "Stevia Latte with extra low calorie. stevia latte, its sweeter but healthier",
+    priceSteviaLatte = "25000",
+        //Menu Es Kopi Susu
+        eskogar =
+        "Eskogar",
+    desEskogar =
+        "Awor newest es kopi susu your daily dose of easy anda smooth palm sugar latte",
+    priceEskogar = "20000",
+    bianca = "Bianca",
+    desBianca =
+        "Awor newest es kopi susu. your daily dose if smooth and creamy latte",
+    priceBianca = "25000",
+        //Menu Cold Brew
+        coldBlack =
+        "Cold Black",
+    desColdBlack =
+        "Cold Brew Coffee, Longger Brewing Time, That'S Why It'S More Concetrated Than Your Conventional Brewed Coffee",
+    priceColdBlack = "35000",
+    coldWhite = "Cold White",
+    desColdWhite =
+        "Cold Brew Coffee With Milk. Silky Smooth Like Heaven In Your Mouth.",
+    priceColdWhite = "35000",
+        //Menu Croissant
+        frenchCroissant =
+        "French Croissant",
+    desFrenchCroissant =
+        "Made With Real French Butter, Authentic Taste And Texture Of Croissants From Parisian Bakeries",
+    priceFrenchCroissant = "20000",
+    painAuxChoco = "Pain Aux Chocolate",
+    desPainAuxChoco =
+        "Cuboid-Shaped Piece Of Croissant Dough With Two Pieces Of Dark Chocolate In The Centre.",
+    pricePainAuxChoco = "23000",
+    cinnamonPastry = "Cinnamon Swirl Pastry",
+    desCinnamonPastry =
+        "Made With a Butter pastry with Cinnamon added and shaped in a Spiral",
+    priceCinnamonPastry = "23000",
+    painAuBeefCheese = "Pain Au Beef & Cheese",
+    desPainAu = "Pain au with slices of Beef Bacon and Red Cheddar Cheese",
+    pricePainAu = "25000",
+    cheeseCroissant = "Cheese Croissant",
+    desCheeseCroissant =
+        "Croissant with red cheddar filling inside and crispy cheese on top",
+    priceCheeseCroissant = "23000";
+// Request Order
+const gratis = "Gratis";
+const ukuranCup = "Ukuran Cup",
+    regularSize = "Regular",
+    largeSize = "Large",
+    priceLarge = "5.000";
+
+const addEspresso = "Add Espresso Shot",
+    add1 = "Add 1 Shot",
+    price1Shot = "9.000",
+    add2 = "Add 2 Shot",
+    price2Shot = "13.000";
+
+const iceLevel = "Ice Level",
+    lessIce = "Less Ice",
+    normalIce = "Normal Ice",
+    extraIce = "Extra Ice",
+    separateTheIce = "Separate The Ice",
+    priceSeparateIce = "5.000";
+
+const sweetness = "Sweetness",
+    lessSweet = "Less Sweet",
+    normalSewwt = "Normal Sweet",
+    extraSweet = "Extra Sweet";
+
+const catatan = "Catatan",
+    opsional = "Opsional",
+    tambahCatatan = "Tambahkan Catatan";
+
+const jumlahItem = "Jumlah Item", tambahkanPesanan = "Tambahkan Pesanan";

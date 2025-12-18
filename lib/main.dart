@@ -15,7 +15,10 @@ class AworCoffeeApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: appname,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.transparent),
+        appBarTheme: AppBarTheme(
+          color: whiteColorP
+        ),
+        scaffoldBackgroundColor: whiteColorP
       ),
       home: SplashScreen(),
     );
