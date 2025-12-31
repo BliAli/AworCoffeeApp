@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 //Primary Color
 const Color blackColor = Color.fromRGBO(0, 0, 0, 1);
+const Color backgroundPage = Color.fromRGBO(255, 255, 255, 1);
 const Color whiteColorP = Color.fromRGBO(247, 247, 247, 1);
 const Color lightWhite = Color.fromRGBO(237, 237, 237, 1);
 const Color brownColor = Color.fromRGBO(71, 43, 13, 1);

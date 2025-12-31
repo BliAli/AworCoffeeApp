@@ -25,6 +25,7 @@ const iconShopeePay = "assets/icons/iconShopeePay.png";
 const iconOvo = "assets/icons/iconOvo.jpg";
 const icPickUp2 = "assets/icons/icPickUp2.png";
 const icStore = "assets/icons/icStore.png";
+const icVoucher = "assets/icons/voucherIcon.png";
 
 //images
 const aworPromo = "assets/images/pbanner1.jpg";

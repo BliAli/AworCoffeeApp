@@ -268,6 +268,8 @@ const ambilDiOutlet = "Ambil langsung di Outlet",
     desCheeseCroissant =
         "Croissant with red cheddar filling inside and crispy cheese on top",
     priceCheeseCroissant = "23000";
+
+//Detail Order
 // Request Order
 const gratis = "Gratis";
 const ukuranCup = "Ukuran Cup",
@@ -298,3 +300,20 @@ const catatan = "Catatan",
     tambahCatatan = "Tambahkan Catatan";
 
 const jumlahItem = "Jumlah Item", tambahkanPesanan = "Tambahkan Pesanan";
+
+//Checkout
+const checkout = "Checkout",
+    alamatPesanan = "Alamat Pesanan",
+    dariLokasimu = "Dari Lokasimu",
+    estimasiPesanan = "Estimasi Pesanan Siap - 5 Menit",
+    ubah = "Ubah",
+    metodePemesanan = "Metode Pemesanan",
+    voucherBelanja = "Voucher Belanja",
+    pilihVoucher = "Pilih Voucher",
+    pilih = "Pilih",
+    detailPesanan = "Detail Pesanan",
+    tambah = "Tambah",
+    rincianPembayaran = "Rincian Pembayaran",
+    harga = "Harga",
+    totalHarga = "Total Harga",
+    lanjutkan = "Lanjutkan";

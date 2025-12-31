@@ -16,7 +16,7 @@ class AworCoffeeApp extends StatelessWidget {
       title: appname,
       theme: ThemeData(
         appBarTheme: AppBarTheme(
-          color: whiteColorP
+          color: backgroundPage
         ),
         scaffoldBackgroundColor: whiteColorP
       ),

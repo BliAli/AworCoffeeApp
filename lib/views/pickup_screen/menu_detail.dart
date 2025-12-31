@@ -1,9 +1,12 @@
 import 'package:awor_coffee/consts/consts.dart';
+import 'package:awor_coffee/models/order_item.dart';
+import 'package:awor_coffee/views/checkout_screen/checkout_screen.dart';
 import 'package:awor_coffee/views/widget_common/cup_size_selector.dart';
 import 'package:awor_coffee/views/widget_common/espresso_selector.dart';
 import 'package:awor_coffee/views/widget_common/ice_level_selector.dart';
 import 'package:awor_coffee/views/widget_common/our_button.dart';
 import 'package:awor_coffee/views/widget_common/sweetness_selector.dart';
+import 'package:get/get.dart';
 
 class MenuDetail extends StatefulWidget {
   const MenuDetail({
@@ -255,7 +258,7 @@ class _MenuDetailState extends State<MenuDetail> {
                     title: "Tambahkan Pesanan - Rp${getTotalPrice()}",
                     textColor: whiteColorP,
                     color: brownColor,
-                    onPress: () {},
+                    onPress: addToOrder,
                   ).box.width(context.screenWidth).make(),
                 ],
               ).box
@@ -310,4 +313,19 @@ class _MenuDetailState extends State<MenuDetail> {
       widget.menuType == signatures ||
       widget.menuType == esKopiSusu ||
       widget.menuType == nonCoffee;
+
+  void addToOrder() {
+    if (jumlahItem == 0) return;
+
+    final orderItem = OrderItem(
+      name: widget.menuName!,
+      pict: widget.menuPic!,
+      size: selectedSize.name,
+      ice: selectedIce.name,
+      sugar: selectedSweet.name,
+      quantity: jumlahItem,
+      price: getTotalPrice(),
+    );
+    Get.to(() => CheckoutScreen(orderItems: [orderItem]));
+  }
 }
