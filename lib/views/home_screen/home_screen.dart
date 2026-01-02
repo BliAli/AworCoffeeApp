@@ -1,4 +1,5 @@
 import 'package:awor_coffee/consts/consts.dart';
+import 'package:awor_coffee/views/delivery_screen/delivery_screen.dart';
 import 'package:awor_coffee/views/exchange_poin_screen/exchange_poin_screen.dart';
 import 'package:awor_coffee/views/news_screen/news_screen.dart';
 import 'package:awor_coffee/views/notif_screen/notif_screen.dart';
@@ -28,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                     itemBuilder: (context, index) {
                       return Image.asset(
                             promoSlider[index],
-                            fit: BoxFit.fill, 
+                            fit: BoxFit.fill,
                             width: double.infinity,
                             height: double.infinity,
                           ).box.rounded
@@ -105,11 +106,12 @@ class HomeScreen extends StatelessWidget {
                                 children: [
                                   Align(
                                     alignment: Alignment.topRight,
-                                    child: pickUp.text
-                                        .fontFamily(bold)
-                                        .size(22)
-                                        .color(whiteColorP)
-                                        .make(),
+                                    child:
+                                        pickUp.text
+                                            .fontFamily(bold)
+                                            .size(22)
+                                            .color(whiteColorP)
+                                            .make(),
                                   ),
                                   Align(
                                     alignment: Alignment.centerLeft,
@@ -141,10 +143,11 @@ class HomeScreen extends StatelessWidget {
                                   ),
                                   Align(
                                     alignment: Alignment.centerLeft,
-                                    child:
-                                        Image.asset(
-                                          icDelivery,
-                                        ).box.width(85).height(60).make(),
+                                    child: Image.asset(
+                                      icDelivery,
+                                    ).box.width(85).height(60).make().onTap(() {
+                                      Get.to(() => DeliveryScreen());
+                                    }),
                                   ),
                                 ],
                               ).box

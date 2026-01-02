@@ -48,7 +48,7 @@ class CategoryMenu extends StatelessWidget {
                       .onTap(() => onTap(index));
                 }),
               ).box
-              .margin(EdgeInsets.symmetric(horizontal: 10, vertical: 5))
+              .margin(EdgeInsets.only(left: 10, right: 10, top: 25, bottom: 5))
               .make(),
     );
   }

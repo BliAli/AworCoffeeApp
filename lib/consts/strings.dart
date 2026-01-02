@@ -149,8 +149,12 @@ const pertanyaan1 = "Bagaimana cara saya mendapatkan sebuah poin?",
     jawaban3 =
         "Maaf, anda tidak bisa membatalkan pesanan yang telah anda buat dan bayar";
 
-//String Pick Up Screen
+//String Pick Up Screen & Delivery
 const ambilDiOutlet = "Ambil langsung di Outlet",
+    langsungDiantar = "Langsung diantar ke lokasi",
+    terdekat = "Terdekat",
+    titleAlamatDelivery = "No.76 Jalan Pattimura",
+    detailAlamatDelivery = "Jl. Pattimura No.76, Daerah Istimewa Yogyakarta 55592, Indonesia",
     cariProduk = "Cari Produk",
     recommend = "Recommended",
     aworSparkly = "Awor Spakrly",

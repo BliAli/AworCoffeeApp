@@ -57,6 +57,7 @@ const mapKosKuning = "assets/images/mapKosKuning.png";
 const mapKosWarungPojok = "assets/images/kosWarungPojokMap.png";
 const bgPickup = "assets/images/bgPickUp.jpg";
 const bgPickupNoEdit = "assets/images/bgPickupNoEdit.jpg";
+const bgDelivery = "assets/images/bgDelivery.jpg";
 //Menu
 //Recommended
 const picMonteFries = "assets/images/monteFries.jpg";

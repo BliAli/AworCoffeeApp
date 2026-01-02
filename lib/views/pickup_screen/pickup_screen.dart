@@ -26,7 +26,7 @@ class _PickupScreenState extends State<PickupScreen> {
           left: 0,
           right: 0,
           bottom: context.screenHeight * 0.85,
-          child: bgWidget(),
+          child: bgWidget(imageBg: bgPickupNoEdit),
         ),
         Scaffold(
           backgroundColor: Colors.transparent,
@@ -95,7 +95,7 @@ class _PickupScreenState extends State<PickupScreen> {
                       .border(color: brownColor)
                       .width(context.screenWidth * 0.87)
                       .margin(
-                        EdgeInsets.symmetric(horizontal: 25, vertical: 10),
+                        EdgeInsets.only(left: 25, right: 25, top: 10, bottom: 15),
                       )
                       .make(),
                   Row(
@@ -116,13 +116,25 @@ class _PickupScreenState extends State<PickupScreen> {
                                     aworGallery.text
                                         .fontFamily(regular)
                                         .color(greyPoinColor)
-                                        .size(13)
+                                        .size(14)
                                         .make(),
-                                    distanceGallery.text
-                                        .fontFamily(regular)
-                                        .color(greyPoinColor)
-                                        .size(13)
-                                        .make(),
+                                    Row(
+                                      children: [
+                                        distanceGallery.text
+                                            .fontFamily(regular)
+                                            .color(greyPoinColor)
+                                            .size(13)
+                                            .make(),
+                                        terdekat.text
+                                            .color(Vx.blue500)
+                                            .fontFamily(semibold)
+                                            .size(13)
+                                            .make()
+                                            .box
+                                            .margin(EdgeInsets.only(left: 3))
+                                            .make(),
+                                      ],
+                                    ),
                                   ],
                                 ).box.margin(EdgeInsets.only(left: 20)).make(),
                                 Icon(
@@ -140,9 +152,7 @@ class _PickupScreenState extends State<PickupScreen> {
                       .color(cardPickUpColor)
                       .border(color: greyColor)
                       .width(context.screenWidth * 0.87)
-                      .margin(
-                        EdgeInsets.symmetric(horizontal: 25, vertical: 15),
-                      )
+                      .margin(EdgeInsets.symmetric(horizontal: 25))
                       .padding(
                         EdgeInsets.symmetric(horizontal: 15, vertical: 15),
                       )
