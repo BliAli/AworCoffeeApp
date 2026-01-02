@@ -18,3 +18,5 @@ const Color greyColor = Color.fromRGBO(217, 217, 217, 1);
 const Color greyPoinColor = Color.fromRGBO(107, 107, 107, 1);
 const Color greyCDateColor = Color.fromRGBO(151, 151, 151, 1);
 const Color cardPickUpColor = Color.fromRGBO(237, 237, 237, 0.64);
+const Color darkRedColor = Color.fromRGBO(146, 14, 14, 1);
+const Color redNotifColor = Color.fromRGBO(199, 128, 128, 1);

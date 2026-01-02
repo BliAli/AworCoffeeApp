@@ -316,4 +316,31 @@ const checkout = "Checkout",
     rincianPembayaran = "Rincian Pembayaran",
     harga = "Harga",
     totalHarga = "Total Harga",
-    lanjutkan = "Lanjutkan";
+    lanjutkan = "Lanjutkan",
+    apakahYakinMemesan = "Apakah anda yakin ingin memesan?";
+
+//Payment
+const qrcode = "QR Code",
+    selesaikanPembayaran = "Selesaikan pembayaran dalam",
+    paymentTime = " 14 menit : 59 detik",
+    totalPembayaran = "Total Pembayaran",
+    tataCaraPayment = "Tata Cara Pembayaran",
+    tacapem1 =
+        "1. Buka Aplikasi Pembayaran Buka aplikasi dompet digital atau mobile banking yang mendukung QRIS (contoh: DANA, OVO, GoPay, BRImo, Livin’, dll).",
+    tacapem2 =
+        "2. Cari dan klik menu 'Scan QR Code' atau 'Bayar' di dalam aplikasi.",
+    tacapem3 =
+        "3. Arahkan kamera HP ke QRIS Code yang ditampilkan oleh merchant (penjual).",
+    tacapem4 =
+        "4. Masukkan Nominal Pembayaran Jika nominal belum muncul otomatis, silakan isi jumlah yang harus dibayar secara manual.",
+    tacapem5 =
+        "5. Konfirmasi Pembayaran Periksa kembali detail pembayaran, lalu tekan 'Bayar' dan masukkan PIN/sidik jari jika diminta.",
+    tacapem6 =
+        "6. Transaksi Berhasil Tunggu konfirmasi pembayaran berhasil. Simpan atau screenshot bukti transaksi sebagai tanda pembayaran.",
+    orderId = "ORDER ID: ",
+    idOrder = "#123456789",
+    pemesesananLewatApp = "Pemesanan Lewat Aplikasi",
+    datePemesanan = "Minggu, 6 Juli 2025",
+    timePemesanan = "19:45",
+    rincianPesanan = "Rincian Pemesanan",
+    qty = "Qty";

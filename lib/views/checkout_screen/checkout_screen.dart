@@ -6,7 +6,9 @@ import 'package:awor_coffee/views/checkout_screen/sections/checkout_order_detail
 import 'package:awor_coffee/views/checkout_screen/sections/checkout_payment_section.dart';
 import 'package:awor_coffee/views/checkout_screen/sections/checkout_summary_section.dart';
 import 'package:awor_coffee/views/checkout_screen/sections/checkout_voucher_section.dart';
+import 'package:awor_coffee/views/payment_screen/payment_screen.dart';
 import 'package:awor_coffee/views/widget_common/our_button.dart';
+import 'package:get/get.dart';
 
 class CheckoutScreen extends StatefulWidget {
   final List<OrderItem> orderItems;
@@ -41,7 +43,10 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
     }
   }
 
-  int get totalPrice => orderItems.fold(0, (sum, item) => (sum + (item.price * item.quantity)).toInt());
+  int get totalPrice => orderItems.fold(
+    0,
+    (sum, item) => (sum + (item.price * item.quantity)).toInt(),
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -61,26 +66,79 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
               //Voucher Belanja
               CheckoutVoucherSection(),
               //Detail Pesanan
-              CheckoutOrderDetailSection(orderItems: orderItems, onAdd: increaseQty, onRemove: decreaseQty),
+              CheckoutOrderDetailSection(
+                orderItems: orderItems,
+                onAdd: increaseQty,
+                onRemove: decreaseQty,
+              ),
               //Metode Pembayaran
               CheckoutPaymentSection(),
               //Rincinan Pesanan
-              CheckoutSummarySection(totalHarga: totalPrice,),
+              CheckoutSummarySection(totalHarga: totalPrice),
             ],
           ),
         ),
       ),
-      bottomNavigationBar:
-          ourButton(
-                title: lanjutkan,
-                color: brownColor,
-                textColor: whiteColorP,
-                onPress: () {},
-              ).box
-              .padding(EdgeInsets.all(25))
-              .height(context.screenHeight * 0.12)
-              .topRounded()
-              .make(),
+      bottomNavigationBar: ourButton(
+        title: lanjutkan,
+        color: brownColor,
+        textColor: whiteColorP,
+        onPress: () {
+          showDialog(
+            context: context,
+            builder: (dialogContext) {
+              return UnconstrainedBox(
+                child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Image.asset(
+                      icLogoAwor2,
+                      width: 70,
+                      height: 70,
+                    ),
+                    apakahYakinMemesan.text
+                        .color(blackColor)
+                        .bold
+                        .align(TextAlign.center)
+                        .size(16)
+                        .make().box.margin(EdgeInsets.symmetric(vertical: 20)).make(),
+                    ourButton(
+                      title: 'Yakin',
+                      color: brownColor,
+                      textColor: whiteColorP,
+                      onPress: () {
+                        Navigator.of(dialogContext).pop();
+                        Get.to(
+                          () => PaymentScreen(
+                            orderItems: orderItems,
+                            totalPrice: totalPrice,
+                          ),
+                        );
+                      },
+                    ).box.width(context.screenWidth * 0.69).make(),
+                  ],
+                )
+                    .box
+                    .rounded
+                    .width(context.screenWidth * 0.69)
+                    .color(whiteColorP)
+                    .padding(
+                      const EdgeInsets.symmetric(
+                        horizontal: 15,
+                        vertical: 15,
+                      ),
+                    )
+                    .make(),
+              );
+            },
+          );
+        },
+      )
+          .box
+          .padding(const EdgeInsets.all(25))
+          .height(context.screenHeight * 0.12)
+          .topRounded()
+          .make(),
     );
   }
 }

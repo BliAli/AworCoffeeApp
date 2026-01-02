@@ -89,3 +89,5 @@ const picPainAuxChoco = "assets/images/painAuxChoco.jpg";
 const picCinnamonPastry = "assets/images/cinnamonPastry.jpg";
 const picPainAuBeefCheese = "assets/images/painAuBeefCheese.jpg";
 const picCheeseCroissant = "assets/images/cheeseCroissant.jpg";
+//payment
+const qrCode = "assets/images/qrCode.png";
