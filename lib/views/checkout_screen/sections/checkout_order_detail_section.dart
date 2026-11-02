@@ -62,7 +62,7 @@ class CheckoutOrderDetailSection extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    'Rp ${item.price * item.quantity}'
+                    'Rp ${item.subtotal}'
                         .text
                         .fontFamily(semibold)
                         .size(13)

@@ -49,7 +49,7 @@ class PaymentDetailPesananSection extends StatelessWidget {
                                             mainAxisAlignment:
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
-                                              "Rp${item.price}".text
+                                              "Rp${item.subtotal}".text
                                                   .color(brownColor)
                                                   .size(14)
                                                   .fontFamily(semibold)

@@ -5,7 +5,7 @@ class OrderItem {
   final String ice;
   final String sugar;
   int quantity;
-  final int price;
+  final int unitPrice;
 
   OrderItem({
     required this.name,
@@ -14,6 +14,8 @@ class OrderItem {
     required this.ice,
     required this.sugar,
     required this.quantity,
-    required this.price,
+    required this.unitPrice,
   });
+
+  int get subtotal => unitPrice * quantity;
 }

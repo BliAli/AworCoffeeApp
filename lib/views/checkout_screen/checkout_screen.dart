@@ -45,7 +45,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
 
   int get totalPrice => orderItems.fold(
     0,
-    (sum, item) => (sum + (item.price * item.quantity)).toInt(),
+    (sum, item) => sum + item.subtotal,
   );
 
   @override

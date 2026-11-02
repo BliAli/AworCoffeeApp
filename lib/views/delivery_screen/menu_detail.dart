@@ -291,11 +291,10 @@ class _MenuDetailState extends State<MenuDetail> {
 
   int getIcePrice(IceLevel ice) => ice == IceLevel.separate ? 5000 : 0;
 
-  int getTotalPrice() {
-    int singleItemPrice =
-        basePrice + sizePrice + espressoPrice + icePrice + sweetPrice;
-    return singleItemPrice * jumlahItem;
-  }
+  int getUnitPrice() =>
+      basePrice + sizePrice + espressoPrice + icePrice + sweetPrice;
+
+  int getTotalPrice() => getUnitPrice() * jumlahItem;
 
   bool get showSize =>
       widget.menuType == signatures ||
@@ -324,7 +323,7 @@ class _MenuDetailState extends State<MenuDetail> {
       ice: selectedIce.name,
       sugar: selectedSweet.name,
       quantity: jumlahItem,
-      price: getTotalPrice(),
+      unitPrice: getUnitPrice(),
     );
     Get.to(() => CheckoutScreen(orderItems: [orderItem]));
   }
